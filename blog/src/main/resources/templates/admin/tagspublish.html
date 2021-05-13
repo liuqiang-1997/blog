@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head th:replace="admin/admincommon::cssandjs">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>标签发布</title>
+
+</head>
+<body>
+
+<!--   导航-->
+<nav th:replace="admin/admincommon:: navigation(3)"></nav>
+<!--    二级导航-->
+<div class="ui attached inverted pointing menu m-opacity-mini">
+    <div class="ui container">
+        <div class="right menu">
+            <a href="#" class="teal active item">发布</a>
+            <a href="#" class="item" th:href="@{/admin/tags}" >列表</a>
+        </div>
+    </div>
+</div>
+<!--      博客内容 -->
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<div class="m-container-small m-padded-tb-big m-opacity-mini">
+    <div class="ui container">
+     <form action="#" method="post" class="ui form" th:object="${tag}"
+           th:action="*{id}==null? @{/admin/tags_post} : @{/admin/tags_post/{id}(id=*{id})}">
+         <input type="hidden" name="id" th:value="*{id}">
+         <div class=" field">
+             <div class="ui left labeled input">
+                 <label class="ui teal basic label">名称</label>
+                 <input type="text" name="name" placeholder="标签名称" th:value="*{name}">
+             </div>
+         </div>
+
+         <div class="ui error message"></div>
+         <!--/*/
+         <div class="ui negative message" th:if="${#fields.hasErrors('name')}" >
+         <i class="close icon"></i>
+         <div class="header">验证失败</div>
+        <p th:errors="*{name}">提交信息不符合规则</p>
+        </div>
+
+        /*/-->
+
+         <div class="ui right aligned container">
+             <button type="button" class="ui button" onclick="window.history.go(-1)">返回</button>
+
+             <button class="ui teal submit button">提交</button>
+         </div>
+
+     </form>
+    </div>
+</div>
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+<!--   底部-->
+<footer th:replace="admin/admincommon::footer"></footer>
+
+<script>
+
+
+    $(".menu.toggle").click(function (){
+        $(".m-item").toggleClass("m-mobile-hide");
+    });
+
+    $('.ui.dropdown').dropdown({
+        on:'click'
+    });
+    $('.ui.form').form({
+        fields :{
+            title:{
+                identifier:'name',
+                rules:[{
+                    type:'empty',
+                    prompt:'请输入标签名称！'
+                }]
+            }
+        }
+    });
+    //    消息提示关闭
+    $('.message.close').
+     on('click',function(){
+        $(this).
+        closest('.close').
+        transition('fade');
+    });
+
+</script>
+</body>
+</html>

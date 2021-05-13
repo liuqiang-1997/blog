@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>404</title>
+    <link href="css/style.css" th:href="@{/css/style.css}" rel="stylesheet">
+    <link href="css/style-responsive.css" th:href="@{css/style-responsive.css}" rel="stylesheet">
+    <div th:include="admin/admincommon :: cssandjs"></div>
+</head>
+<body>
+<!--   导航-->
+<nav th:replace="common :: navigation(null)"></nav>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<section>
+    <div class="container " align="center">
+
+        <section class="error-wrapper text-center">
+            <h1><img src="../static/images/404-error.png" alt="" th:src="@{/images/404-error.png}"/></h1>
+            <h2>page not found</h2>
+            <h3>We Couldn’t Find This Page</h3>
+            <a class="back-btn" href="/"> Back To Home</a>
+        </section>
+
+    </div>
+</section>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<!--   底部-->
+<footer th:replace="common :: footer"></footer>
+
+</body>
+</html>

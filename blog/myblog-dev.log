@@ -1,0 +1,623 @@
+2021-05-13 05:51:37.004  WARN 9631 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6h25s381ms).
+2021-05-13 07:59:18.785  WARN 9631 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h7m41s781ms).
+2021-05-13 08:02:28.799  INFO 9631 --- [http-nio-8080-exec-9] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.IndexController.index, args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}])
+2021-05-13 08:02:28.842  INFO 9631 --- [http-nio-8080-exec-9] com.liuqiang.blog.logutils.LogAspect     : Result:index
+2021-05-13 08:02:28.843  INFO 9631 --- [http-nio-8080-exec-9] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 08:02:31.208  INFO 9631 --- [http-nio-8080-exec-1] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/types/0, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.TypeShowController.show, args=[Page request [number: 0, size 5, sort: updateTime: DESC], 0, {}])
+2021-05-13 08:02:31.224  INFO 9631 --- [http-nio-8080-exec-1] com.liuqiang.blog.logutils.LogAspect     : Result:types
+2021-05-13 08:02:31.224  INFO 9631 --- [http-nio-8080-exec-1] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 08:02:34.227  INFO 9631 --- [http-nio-8080-exec-2] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/types/2, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.TypeShowController.show, args=[Page request [number: 0, size 5, sort: updateTime: DESC], 2, {}])
+2021-05-13 08:02:34.268  INFO 9631 --- [http-nio-8080-exec-2] com.liuqiang.blog.logutils.LogAspect     : Result:types
+2021-05-13 08:02:34.269  INFO 9631 --- [http-nio-8080-exec-2] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 08:02:41.477  INFO 9631 --- [http-nio-8080-exec-3] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/types/3, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.TypeShowController.show, args=[Page request [number: 0, size 5, sort: updateTime: DESC], 3, {}])
+2021-05-13 08:02:41.505  INFO 9631 --- [http-nio-8080-exec-3] com.liuqiang.blog.logutils.LogAspect     : Result:types
+2021-05-13 08:02:41.505  INFO 9631 --- [http-nio-8080-exec-3] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 08:02:44.223  INFO 9631 --- [http-nio-8080-exec-4] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/tags/0, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.TypeShowController.shows, args=[Page request [number: 0, size 5, sort: updateTime: DESC], 0, {}])
+2021-05-13 08:02:44.242  INFO 9631 --- [http-nio-8080-exec-4] com.liuqiang.blog.logutils.LogAspect     : Result:tags
+2021-05-13 08:02:44.242  INFO 9631 --- [http-nio-8080-exec-4] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 08:02:46.984  INFO 9631 --- [http-nio-8080-exec-5] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/tags/1, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.TypeShowController.shows, args=[Page request [number: 0, size 5, sort: updateTime: DESC], 1, {}])
+2021-05-13 08:02:47.005  INFO 9631 --- [http-nio-8080-exec-5] com.liuqiang.blog.logutils.LogAspect     : Result:tags
+2021-05-13 08:02:47.006  INFO 9631 --- [http-nio-8080-exec-5] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 08:02:52.356  INFO 9631 --- [http-nio-8080-exec-6] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/tags/15, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.TypeShowController.shows, args=[Page request [number: 0, size 5, sort: updateTime: DESC], 15, {}])
+2021-05-13 08:02:52.377  INFO 9631 --- [http-nio-8080-exec-6] com.liuqiang.blog.logutils.LogAspect     : Result:tags
+2021-05-13 08:02:52.378  INFO 9631 --- [http-nio-8080-exec-6] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 08:02:55.262  INFO 9631 --- [http-nio-8080-exec-8] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/archives, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.TypeShowController.achives, args=[{}])
+2021-05-13 08:02:55.288  INFO 9631 --- [http-nio-8080-exec-8] com.liuqiang.blog.logutils.LogAspect     : Result:archives
+2021-05-13 08:02:55.288  INFO 9631 --- [http-nio-8080-exec-8] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 08:18:07.826  INFO 9631 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-05-13 08:18:07.838  INFO 9631 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-05-13 08:18:07.864  INFO 9631 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-05-13 08:18:18.904  INFO 9951 --- [restartedMain] com.liuqiang.blog.BlogApplication        : Starting BlogApplication using Java 1.8.0_144 on bogon with PID 9951 (/Users/liuqiang/blog/target/classes started by liuqiang in /Users/liuqiang/blog)
+2021-05-13 08:18:19.137 DEBUG 9951 --- [restartedMain] com.liuqiang.blog.BlogApplication        : Running with Spring Boot v2.4.4, Spring v5.3.5
+2021-05-13 08:18:19.139  INFO 9951 --- [restartedMain] com.liuqiang.blog.BlogApplication        : The following profiles are active: dev
+2021-05-13 08:18:19.248  INFO 9951 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-13 08:18:19.248  INFO 9951 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-13 08:18:20.677  INFO 9951 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-05-13 08:18:20.749  INFO 9951 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 64 ms. Found 5 JPA repository interfaces.
+2021-05-13 08:18:22.011  INFO 9951 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-05-13 08:18:22.023  INFO 9951 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-13 08:18:22.024  INFO 9951 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-05-13 08:18:22.109  INFO 9951 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-13 08:18:22.109  INFO 9951 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2858 ms
+2021-05-13 08:18:22.403  INFO 9951 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-13 08:18:22.441  INFO 9951 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-05-13 08:18:22.541  INFO 9951 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-05-13 08:18:22.687  INFO 9951 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-05-13 08:18:22.997  INFO 9951 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-05-13 08:18:23.014  INFO 9951 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-05-13 08:18:23.903  INFO 9951 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-13 08:18:23.914  INFO 9951 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-13 08:18:23.986  INFO 9951 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-05-13 08:18:24.934  WARN 9951 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-13 08:18:25.865  INFO 9951 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-13 08:18:25.875  INFO 9951 --- [restartedMain] com.liuqiang.blog.BlogApplication        : Started BlogApplication in 7.522 seconds (JVM running for 10.102)
+2021-05-13 08:18:31.840  INFO 9951 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-13 08:18:31.840  INFO 9951 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-13 08:18:31.842  INFO 9951 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-05-13 08:18:31.874  INFO 9951 --- [http-nio-8080-exec-1] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/archives, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.TypeShowController.achives, args=[{}])
+2021-05-13 08:18:32.010  INFO 9951 --- [http-nio-8080-exec-1] com.liuqiang.blog.logutils.LogAspect     : Result:archives
+2021-05-13 08:18:32.011  INFO 9951 --- [http-nio-8080-exec-1] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 08:18:37.520  INFO 9951 --- [http-nio-8080-exec-2] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.IndexController.index, args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}])
+2021-05-13 08:18:37.583  WARN 9951 --- [http-nio-8080-exec-2] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogList.size]; use collection function syntax instead [size(t.blogList)].
+2021-05-13 08:18:37.596  WARN 9951 --- [http-nio-8080-exec-2] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogList.size]; use collection function syntax instead [size(t.blogList)].
+2021-05-13 08:18:37.610  INFO 9951 --- [http-nio-8080-exec-2] com.liuqiang.blog.logutils.LogAspect     : Result:index
+2021-05-13 08:18:37.611  INFO 9951 --- [http-nio-8080-exec-2] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 08:20:51.375  INFO 9951 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-05-13 08:20:51.396  INFO 9951 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-05-13 08:20:51.416  INFO 9951 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-05-13 08:21:01.694  INFO 9954 --- [restartedMain] com.liuqiang.blog.BlogApplication        : Starting BlogApplication using Java 1.8.0_144 on bogon with PID 9954 (/Users/liuqiang/blog/target/classes started by liuqiang in /Users/liuqiang/blog)
+2021-05-13 08:21:01.698 DEBUG 9954 --- [restartedMain] com.liuqiang.blog.BlogApplication        : Running with Spring Boot v2.4.4, Spring v5.3.5
+2021-05-13 08:21:01.699  INFO 9954 --- [restartedMain] com.liuqiang.blog.BlogApplication        : The following profiles are active: dev
+2021-05-13 08:21:01.890  INFO 9954 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-13 08:21:01.890  INFO 9954 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-13 08:21:03.191  INFO 9954 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-05-13 08:21:03.557  INFO 9954 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 320 ms. Found 5 JPA repository interfaces.
+2021-05-13 08:21:04.759  INFO 9954 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-05-13 08:21:04.767  INFO 9954 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-13 08:21:04.768  INFO 9954 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-05-13 08:21:04.834  INFO 9954 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-13 08:21:04.835  INFO 9954 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2944 ms
+2021-05-13 08:21:05.110  INFO 9954 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-13 08:21:05.163  INFO 9954 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-05-13 08:21:05.257  INFO 9954 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-05-13 08:21:05.351  INFO 9954 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-05-13 08:21:05.636  INFO 9954 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-05-13 08:21:05.652  INFO 9954 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-05-13 08:21:06.715  INFO 9954 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-13 08:21:06.723  INFO 9954 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-13 08:21:06.800  INFO 9954 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-05-13 08:21:07.712  WARN 9954 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-13 08:21:08.604  INFO 9954 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-13 08:21:08.615  INFO 9954 --- [restartedMain] com.liuqiang.blog.BlogApplication        : Started BlogApplication in 8.293 seconds (JVM running for 11.458)
+2021-05-13 08:21:15.677  INFO 9954 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-13 08:21:15.678  INFO 9954 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-13 08:21:15.680  INFO 9954 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-05-13 08:21:15.731  INFO 9954 --- [http-nio-8080-exec-1] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.IndexController.index, args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}])
+2021-05-13 08:21:16.001  WARN 9954 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogList.size]; use collection function syntax instead [size(t.blogList)].
+2021-05-13 08:21:16.037  WARN 9954 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogList.size]; use collection function syntax instead [size(t.blogList)].
+2021-05-13 08:21:16.051  INFO 9954 --- [http-nio-8080-exec-1] com.liuqiang.blog.logutils.LogAspect     : Result:index
+2021-05-13 08:21:16.052  INFO 9954 --- [http-nio-8080-exec-1] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 08:21:27.788  INFO 9954 --- [http-nio-8080-exec-2] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.IndexController.index, args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}])
+2021-05-13 08:21:27.845  INFO 9954 --- [http-nio-8080-exec-2] com.liuqiang.blog.logutils.LogAspect     : Result:index
+2021-05-13 08:21:27.846  INFO 9954 --- [http-nio-8080-exec-2] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 08:22:45.396  INFO 9954 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-05-13 08:22:45.412  INFO 9954 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-05-13 08:22:45.432  INFO 9954 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-05-13 08:22:55.265  INFO 9959 --- [restartedMain] com.liuqiang.blog.BlogApplication        : Starting BlogApplication using Java 1.8.0_144 on bogon with PID 9959 (/Users/liuqiang/blog/target/classes started by liuqiang in /Users/liuqiang/blog)
+2021-05-13 08:22:55.272 DEBUG 9959 --- [restartedMain] com.liuqiang.blog.BlogApplication        : Running with Spring Boot v2.4.4, Spring v5.3.5
+2021-05-13 08:22:55.273  INFO 9959 --- [restartedMain] com.liuqiang.blog.BlogApplication        : The following profiles are active: dev
+2021-05-13 08:22:55.463  INFO 9959 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-13 08:22:55.465  INFO 9959 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-13 08:22:56.469  INFO 9959 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-05-13 08:22:56.559  INFO 9959 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 77 ms. Found 5 JPA repository interfaces.
+2021-05-13 08:22:57.341  INFO 9959 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-05-13 08:22:57.358  INFO 9959 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-13 08:22:57.359  INFO 9959 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-05-13 08:22:57.421  INFO 9959 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-13 08:22:57.421  INFO 9959 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1954 ms
+2021-05-13 08:22:57.696  INFO 9959 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-13 08:22:57.732  INFO 9959 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-05-13 08:22:57.820  INFO 9959 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-05-13 08:22:57.897  INFO 9959 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-05-13 08:22:58.208  INFO 9959 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-05-13 08:22:58.224  INFO 9959 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-05-13 08:22:59.051  INFO 9959 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-13 08:22:59.059  INFO 9959 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-13 08:22:59.142  INFO 9959 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-05-13 08:22:59.956  WARN 9959 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-13 08:23:00.835  INFO 9959 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-13 08:23:00.846  INFO 9959 --- [restartedMain] com.liuqiang.blog.BlogApplication        : Started BlogApplication in 6.456 seconds (JVM running for 9.899)
+2021-05-13 08:23:04.387  INFO 9959 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-13 08:23:04.388  INFO 9959 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-13 08:23:04.390  INFO 9959 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-05-13 08:23:04.427  INFO 9959 --- [http-nio-8080-exec-1] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.IndexController.index, args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}])
+2021-05-13 08:23:04.568  WARN 9959 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogList.size]; use collection function syntax instead [size(t.blogList)].
+2021-05-13 08:23:04.589  WARN 9959 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogList.size]; use collection function syntax instead [size(t.blogList)].
+2021-05-13 08:23:04.616  INFO 9959 --- [http-nio-8080-exec-1] com.liuqiang.blog.logutils.LogAspect     : Result:index
+2021-05-13 08:23:04.617  INFO 9959 --- [http-nio-8080-exec-1] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 08:24:54.905  INFO 9959 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-05-13 08:24:54.914  INFO 9959 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-05-13 08:24:54.926  INFO 9959 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-05-13 08:25:01.505  INFO 9963 --- [restartedMain] com.liuqiang.blog.BlogApplication        : Starting BlogApplication using Java 1.8.0_144 on bogon with PID 9963 (/Users/liuqiang/blog/target/classes started by liuqiang in /Users/liuqiang/blog)
+2021-05-13 08:25:01.512 DEBUG 9963 --- [restartedMain] com.liuqiang.blog.BlogApplication        : Running with Spring Boot v2.4.4, Spring v5.3.5
+2021-05-13 08:25:01.512  INFO 9963 --- [restartedMain] com.liuqiang.blog.BlogApplication        : The following profiles are active: dev
+2021-05-13 08:25:01.689  INFO 9963 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-13 08:25:01.690  INFO 9963 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-13 08:25:02.946  INFO 9963 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-05-13 08:25:03.085  INFO 9963 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 124 ms. Found 5 JPA repository interfaces.
+2021-05-13 08:25:04.165  INFO 9963 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-05-13 08:25:04.175  INFO 9963 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-13 08:25:04.175  INFO 9963 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-05-13 08:25:04.306  INFO 9963 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-13 08:25:04.306  INFO 9963 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2614 ms
+2021-05-13 08:25:04.598  INFO 9963 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-13 08:25:04.652  INFO 9963 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-05-13 08:25:04.791  INFO 9963 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-05-13 08:25:04.965  INFO 9963 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-05-13 08:25:05.284  INFO 9963 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-05-13 08:25:05.310  INFO 9963 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-05-13 08:25:06.535  INFO 9963 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-13 08:25:06.546  INFO 9963 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-13 08:25:06.654  INFO 9963 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-05-13 08:25:07.854  WARN 9963 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-13 08:25:09.089  INFO 9963 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-13 08:25:09.118  INFO 9963 --- [restartedMain] com.liuqiang.blog.BlogApplication        : Started BlogApplication in 8.815 seconds (JVM running for 12.254)
+2021-05-13 08:25:16.590  INFO 9963 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-13 08:25:16.591  INFO 9963 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-13 08:25:16.592  INFO 9963 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-05-13 08:25:16.650  INFO 9963 --- [http-nio-8080-exec-1] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.IndexController.index, args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}])
+2021-05-13 08:25:16.837  WARN 9963 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogList.size]; use collection function syntax instead [size(t.blogList)].
+2021-05-13 08:25:16.868  WARN 9963 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogList.size]; use collection function syntax instead [size(t.blogList)].
+2021-05-13 08:25:16.883  INFO 9963 --- [http-nio-8080-exec-1] com.liuqiang.blog.logutils.LogAspect     : Result:index
+2021-05-13 08:25:16.884  INFO 9963 --- [http-nio-8080-exec-1] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 08:25:31.341  INFO 9963 --- [http-nio-8080-exec-2] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.IndexController.bewblogs, args=[{}])
+2021-05-13 08:25:37.725  INFO 9963 --- [http-nio-8080-exec-2] com.liuqiang.blog.logutils.LogAspect     : Result:common :: newbloglist
+2021-05-13 08:25:37.732  INFO 9963 --- [http-nio-8080-exec-2] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 08:25:47.604  INFO 9963 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-05-13 08:25:47.609  INFO 9963 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-05-13 08:25:47.620  INFO 9963 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-05-13 08:25:54.009  INFO 9966 --- [restartedMain] com.liuqiang.blog.BlogApplication        : Starting BlogApplication using Java 1.8.0_144 on bogon with PID 9966 (/Users/liuqiang/blog/target/classes started by liuqiang in /Users/liuqiang/blog)
+2021-05-13 08:25:54.014 DEBUG 9966 --- [restartedMain] com.liuqiang.blog.BlogApplication        : Running with Spring Boot v2.4.4, Spring v5.3.5
+2021-05-13 08:25:54.015  INFO 9966 --- [restartedMain] com.liuqiang.blog.BlogApplication        : The following profiles are active: dev
+2021-05-13 08:25:54.255  INFO 9966 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-13 08:25:54.256  INFO 9966 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-13 08:25:55.631  INFO 9966 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-05-13 08:25:55.747  INFO 9966 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 101 ms. Found 5 JPA repository interfaces.
+2021-05-13 08:25:56.885  INFO 9966 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-05-13 08:25:56.897  INFO 9966 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-13 08:25:56.899  INFO 9966 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-05-13 08:25:57.004  INFO 9966 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-13 08:25:57.005  INFO 9966 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2748 ms
+2021-05-13 08:25:57.644  INFO 9966 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-13 08:25:57.705  INFO 9966 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-05-13 08:25:57.971  INFO 9966 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-05-13 08:25:58.201  INFO 9966 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-05-13 08:25:58.603  INFO 9966 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-05-13 08:25:58.633  INFO 9966 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-05-13 08:25:59.754  INFO 9966 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-13 08:25:59.766  INFO 9966 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-13 08:25:59.843  INFO 9966 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-05-13 08:26:01.215  WARN 9966 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-13 08:26:02.256  INFO 9966 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-13 08:26:02.268  INFO 9966 --- [restartedMain] com.liuqiang.blog.BlogApplication        : Started BlogApplication in 9.331 seconds (JVM running for 11.377)
+2021-05-13 08:26:07.655  INFO 9966 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-13 08:26:07.655  INFO 9966 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-13 08:26:07.656  INFO 9966 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-05-13 08:26:07.691  INFO 9966 --- [http-nio-8080-exec-1] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.IndexController.bewblogs, args=[{}])
+2021-05-13 08:26:20.667  INFO 9966 --- [http-nio-8080-exec-1] com.liuqiang.blog.logutils.LogAspect     : Result:common :: newbloglist
+2021-05-13 08:26:20.676  INFO 9966 --- [http-nio-8080-exec-1] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 08:30:38.977  INFO 9966 --- [http-nio-8080-exec-4] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.IndexController.bewblogs, args=[{}])
+2021-05-13 08:30:56.701  INFO 9966 --- [http-nio-8080-exec-4] com.liuqiang.blog.logutils.LogAspect     : Result:common :: newbloglist
+2021-05-13 08:30:56.703  INFO 9966 --- [http-nio-8080-exec-4] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 08:32:19.294  INFO 9966 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-05-13 08:32:19.311  INFO 9966 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-05-13 08:32:19.339  INFO 9966 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-05-13 08:32:24.904  INFO 9987 --- [restartedMain] com.liuqiang.blog.BlogApplication        : Starting BlogApplication using Java 1.8.0_144 on bogon with PID 9987 (/Users/liuqiang/blog/target/classes started by liuqiang in /Users/liuqiang/blog)
+2021-05-13 08:32:24.907 DEBUG 9987 --- [restartedMain] com.liuqiang.blog.BlogApplication        : Running with Spring Boot v2.4.4, Spring v5.3.5
+2021-05-13 08:32:24.907  INFO 9987 --- [restartedMain] com.liuqiang.blog.BlogApplication        : The following profiles are active: dev
+2021-05-13 08:32:24.961  INFO 9987 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-13 08:32:24.961  INFO 9987 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-13 08:32:25.939  INFO 9987 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-05-13 08:32:26.002  INFO 9987 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 56 ms. Found 5 JPA repository interfaces.
+2021-05-13 08:32:26.652  INFO 9987 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-05-13 08:32:26.659  INFO 9987 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-13 08:32:26.660  INFO 9987 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-05-13 08:32:26.710  INFO 9987 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-13 08:32:26.710  INFO 9987 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1748 ms
+2021-05-13 08:32:26.945  INFO 9987 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-13 08:32:26.985  INFO 9987 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-05-13 08:32:27.077  INFO 9987 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-05-13 08:32:27.146  INFO 9987 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-05-13 08:32:27.410  INFO 9987 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-05-13 08:32:27.426  INFO 9987 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-05-13 08:32:28.184  INFO 9987 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-13 08:32:28.192  INFO 9987 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-13 08:32:28.268  INFO 9987 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-05-13 08:32:29.021  WARN 9987 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-13 08:32:29.804  INFO 9987 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-13 08:32:29.814  INFO 9987 --- [restartedMain] com.liuqiang.blog.BlogApplication        : Started BlogApplication in 5.496 seconds (JVM running for 8.199)
+2021-05-13 08:32:43.444  INFO 9987 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-13 08:32:43.444  INFO 9987 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-13 08:32:43.446  INFO 9987 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-05-13 08:32:43.479  INFO 9987 --- [http-nio-8080-exec-1] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.IndexController.index, args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}])
+2021-05-13 08:32:43.585  WARN 9987 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogList.size]; use collection function syntax instead [size(t.blogList)].
+2021-05-13 08:32:43.598  WARN 9987 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogList.size]; use collection function syntax instead [size(t.blogList)].
+2021-05-13 08:32:43.610  INFO 9987 --- [http-nio-8080-exec-1] com.liuqiang.blog.logutils.LogAspect     : Result:index
+2021-05-13 08:32:43.610  INFO 9987 --- [http-nio-8080-exec-1] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 08:33:52.008  INFO 9987 --- [http-nio-8080-exec-10] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.IndexController.index, args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}])
+2021-05-13 08:33:52.066  INFO 9987 --- [http-nio-8080-exec-10] com.liuqiang.blog.logutils.LogAspect     : Result:index
+2021-05-13 08:33:52.067  INFO 9987 --- [http-nio-8080-exec-10] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 08:37:43.840  INFO 9987 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-05-13 08:37:43.856  INFO 9987 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-05-13 08:37:43.864  INFO 9987 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-05-13 08:37:54.043  INFO 9994 --- [restartedMain] com.liuqiang.blog.BlogApplication        : Starting BlogApplication using Java 1.8.0_144 on bogon with PID 9994 (/Users/liuqiang/blog/target/classes started by liuqiang in /Users/liuqiang/blog)
+2021-05-13 08:37:54.051 DEBUG 9994 --- [restartedMain] com.liuqiang.blog.BlogApplication        : Running with Spring Boot v2.4.4, Spring v5.3.5
+2021-05-13 08:37:54.052  INFO 9994 --- [restartedMain] com.liuqiang.blog.BlogApplication        : The following profiles are active: dev
+2021-05-13 08:37:54.239  INFO 9994 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-13 08:37:54.239  INFO 9994 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-13 08:37:55.230  INFO 9994 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-05-13 08:37:55.309  INFO 9994 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 69 ms. Found 5 JPA repository interfaces.
+2021-05-13 08:37:56.154  INFO 9994 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-05-13 08:37:56.163  INFO 9994 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-13 08:37:56.164  INFO 9994 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-05-13 08:37:56.220  INFO 9994 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-13 08:37:56.220  INFO 9994 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1980 ms
+2021-05-13 08:37:56.488  INFO 9994 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-13 08:37:56.524  INFO 9994 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-05-13 08:37:56.607  INFO 9994 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-05-13 08:37:56.679  INFO 9994 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-05-13 08:37:56.958  INFO 9994 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-05-13 08:37:56.973  INFO 9994 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-05-13 08:37:57.843  INFO 9994 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-13 08:37:57.852  INFO 9994 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-13 08:37:57.935  INFO 9994 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-05-13 08:37:58.772  WARN 9994 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-13 08:37:59.565  INFO 9994 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-13 08:37:59.575  INFO 9994 --- [restartedMain] com.liuqiang.blog.BlogApplication        : Started BlogApplication in 7.209 seconds (JVM running for 9.959)
+2021-05-13 08:38:08.229  INFO 9994 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-13 08:38:08.229  INFO 9994 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-13 08:38:08.230  INFO 9994 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-05-13 08:38:08.260  INFO 9994 --- [http-nio-8080-exec-1] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.IndexController.index, args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}])
+2021-05-13 08:38:08.371  WARN 9994 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogList.size]; use collection function syntax instead [size(t.blogList)].
+2021-05-13 08:38:08.387  WARN 9994 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogList.size]; use collection function syntax instead [size(t.blogList)].
+2021-05-13 08:38:08.398  INFO 9994 --- [http-nio-8080-exec-1] com.liuqiang.blog.logutils.LogAspect     : Result:index
+2021-05-13 08:38:08.398  INFO 9994 --- [http-nio-8080-exec-1] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 08:38:10.223  INFO 9994 --- [http-nio-8080-exec-4] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.IndexController.bewblogs, args=[{}])
+2021-05-13 08:38:10.244  INFO 9994 --- [http-nio-8080-exec-4] com.liuqiang.blog.logutils.LogAspect     : Result:common :: newbloglist
+2021-05-13 08:38:10.244  INFO 9994 --- [http-nio-8080-exec-4] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 08:38:18.001  INFO 9994 --- [http-nio-8080-exec-7] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/blog/35, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.IndexController.blog, args=[35, {}, org.apache.catalina.session.StandardSessionFacade@4419c7b1])
+2021-05-13 08:38:18.194  INFO 9994 --- [http-nio-8080-exec-7] com.liuqiang.blog.logutils.LogAspect     : Result:blog
+2021-05-13 08:38:18.194  INFO 9994 --- [http-nio-8080-exec-7] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 08:38:37.156  INFO 9994 --- [http-nio-8080-exec-1] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/types/0, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.TypeShowController.show, args=[Page request [number: 0, size 5, sort: updateTime: DESC], 0, {}])
+2021-05-13 08:38:37.188  INFO 9994 --- [http-nio-8080-exec-1] com.liuqiang.blog.logutils.LogAspect     : Result:types
+2021-05-13 08:38:37.188  INFO 9994 --- [http-nio-8080-exec-1] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 08:38:40.614  INFO 9994 --- [http-nio-8080-exec-9] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.IndexController.index, args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}])
+2021-05-13 08:38:40.641  INFO 9994 --- [http-nio-8080-exec-9] com.liuqiang.blog.logutils.LogAspect     : Result:index
+2021-05-13 08:38:40.642  INFO 9994 --- [http-nio-8080-exec-9] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 08:38:41.343  INFO 9994 --- [http-nio-8080-exec-10] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.IndexController.bewblogs, args=[{}])
+2021-05-13 08:38:41.360  INFO 9994 --- [http-nio-8080-exec-10] com.liuqiang.blog.logutils.LogAspect     : Result:common :: newbloglist
+2021-05-13 08:38:41.361  INFO 9994 --- [http-nio-8080-exec-10] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 08:38:55.650  INFO 9994 --- [http-nio-8080-exec-2] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/types/0, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.TypeShowController.show, args=[Page request [number: 0, size 5, sort: updateTime: DESC], 0, {}])
+2021-05-13 08:38:55.663  INFO 9994 --- [http-nio-8080-exec-2] com.liuqiang.blog.logutils.LogAspect     : Result:types
+2021-05-13 08:38:55.664  INFO 9994 --- [http-nio-8080-exec-2] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 08:38:59.102  INFO 9994 --- [http-nio-8080-exec-3] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/tags/0, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.TypeShowController.shows, args=[Page request [number: 0, size 5, sort: updateTime: DESC], 0, {}])
+2021-05-13 08:38:59.128  INFO 9994 --- [http-nio-8080-exec-3] com.liuqiang.blog.logutils.LogAspect     : Result:tags
+2021-05-13 08:38:59.129  INFO 9994 --- [http-nio-8080-exec-3] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 08:39:00.664  INFO 9994 --- [http-nio-8080-exec-5] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.IndexController.index, args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}])
+2021-05-13 08:39:00.702  INFO 9994 --- [http-nio-8080-exec-5] com.liuqiang.blog.logutils.LogAspect     : Result:index
+2021-05-13 08:39:00.703  INFO 9994 --- [http-nio-8080-exec-5] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 08:39:01.294  INFO 9994 --- [http-nio-8080-exec-6] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.IndexController.bewblogs, args=[{}])
+2021-05-13 08:39:01.312  INFO 9994 --- [http-nio-8080-exec-6] com.liuqiang.blog.logutils.LogAspect     : Result:common :: newbloglist
+2021-05-13 08:39:01.312  INFO 9994 --- [http-nio-8080-exec-6] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 08:39:21.634  INFO 9994 --- [http-nio-8080-exec-10] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/adminindex, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.IndexController.adminIndex, args=[org.apache.catalina.session.StandardSessionFacade@4419c7b1, {}])
+2021-05-13 08:39:21.637  INFO 9994 --- [http-nio-8080-exec-10] com.liuqiang.blog.logutils.LogAspect     : Result:admin/login
+2021-05-13 08:39:21.638  INFO 9994 --- [http-nio-8080-exec-10] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 08:39:50.309  INFO 9994 --- [http-nio-8080-exec-1] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.IndexController.index, args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}])
+2021-05-13 08:39:50.329  INFO 9994 --- [http-nio-8080-exec-1] com.liuqiang.blog.logutils.LogAspect     : Result:index
+2021-05-13 08:39:50.330  INFO 9994 --- [http-nio-8080-exec-1] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 08:39:50.934  INFO 9994 --- [http-nio-8080-exec-8] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.IndexController.bewblogs, args=[{}])
+2021-05-13 08:39:50.949  INFO 9994 --- [http-nio-8080-exec-8] com.liuqiang.blog.logutils.LogAspect     : Result:common :: newbloglist
+2021-05-13 08:39:50.950  INFO 9994 --- [http-nio-8080-exec-8] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 08:40:19.892  INFO 9994 --- [http-nio-8080-exec-4] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/archives, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.TypeShowController.achives, args=[{}])
+2021-05-13 08:40:19.923  INFO 9994 --- [http-nio-8080-exec-4] com.liuqiang.blog.logutils.LogAspect     : Result:archives
+2021-05-13 08:40:19.924  INFO 9994 --- [http-nio-8080-exec-4] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 08:40:23.835  INFO 9994 --- [http-nio-8080-exec-7] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/tags/0, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.TypeShowController.shows, args=[Page request [number: 0, size 5, sort: updateTime: DESC], 0, {}])
+2021-05-13 08:40:23.844  INFO 9994 --- [http-nio-8080-exec-7] com.liuqiang.blog.logutils.LogAspect     : Result:tags
+2021-05-13 08:40:23.845  INFO 9994 --- [http-nio-8080-exec-7] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 08:40:27.646  INFO 9994 --- [http-nio-8080-exec-9] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/types/0, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.TypeShowController.show, args=[Page request [number: 0, size 5, sort: updateTime: DESC], 0, {}])
+2021-05-13 08:40:27.654  INFO 9994 --- [http-nio-8080-exec-9] com.liuqiang.blog.logutils.LogAspect     : Result:types
+2021-05-13 08:40:27.654  INFO 9994 --- [http-nio-8080-exec-9] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 08:40:30.957  INFO 9994 --- [http-nio-8080-exec-10] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.IndexController.index, args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}])
+2021-05-13 08:40:30.979  INFO 9994 --- [http-nio-8080-exec-10] com.liuqiang.blog.logutils.LogAspect     : Result:index
+2021-05-13 08:40:30.979  INFO 9994 --- [http-nio-8080-exec-10] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 08:40:31.514  INFO 9994 --- [http-nio-8080-exec-3] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.IndexController.bewblogs, args=[{}])
+2021-05-13 08:40:31.528  INFO 9994 --- [http-nio-8080-exec-3] com.liuqiang.blog.logutils.LogAspect     : Result:common :: newbloglist
+2021-05-13 08:40:31.528  INFO 9994 --- [http-nio-8080-exec-3] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 08:47:36.130  INFO 9994 --- [http-nio-8080-exec-6] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.IndexController.index, args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}])
+2021-05-13 08:47:36.154  INFO 9994 --- [http-nio-8080-exec-6] com.liuqiang.blog.logutils.LogAspect     : Result:index
+2021-05-13 08:47:36.154  INFO 9994 --- [http-nio-8080-exec-6] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 08:47:36.716  INFO 9994 --- [http-nio-8080-exec-1] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.IndexController.bewblogs, args=[{}])
+2021-05-13 08:47:36.729  INFO 9994 --- [http-nio-8080-exec-1] com.liuqiang.blog.logutils.LogAspect     : Result:common :: newbloglist
+2021-05-13 08:47:36.729  INFO 9994 --- [http-nio-8080-exec-1] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 08:55:35.772  INFO 9994 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-05-13 08:55:35.785  INFO 9994 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-05-13 08:55:35.816  INFO 9994 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-05-13 08:55:41.479  INFO 10028 --- [restartedMain] com.liuqiang.blog.BlogApplication        : Starting BlogApplication using Java 1.8.0_144 on bogon with PID 10028 (/Users/liuqiang/blog/target/classes started by liuqiang in /Users/liuqiang/blog)
+2021-05-13 08:55:41.482 DEBUG 10028 --- [restartedMain] com.liuqiang.blog.BlogApplication        : Running with Spring Boot v2.4.4, Spring v5.3.5
+2021-05-13 08:55:41.483  INFO 10028 --- [restartedMain] com.liuqiang.blog.BlogApplication        : The following profiles are active: dev
+2021-05-13 08:55:41.556  INFO 10028 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-13 08:55:41.556  INFO 10028 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-13 08:55:42.608  INFO 10028 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-05-13 08:55:42.680  INFO 10028 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 64 ms. Found 5 JPA repository interfaces.
+2021-05-13 08:55:43.439  INFO 10028 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-05-13 08:55:43.448  INFO 10028 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-13 08:55:43.448  INFO 10028 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-05-13 08:55:43.510  INFO 10028 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-13 08:55:43.511  INFO 10028 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1952 ms
+2021-05-13 08:55:43.800  INFO 10028 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-13 08:55:43.836  INFO 10028 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-05-13 08:55:43.926  INFO 10028 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-05-13 08:55:44.003  INFO 10028 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-05-13 08:55:44.315  INFO 10028 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-05-13 08:55:44.333  INFO 10028 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-05-13 08:55:45.433  INFO 10028 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-13 08:55:45.441  INFO 10028 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-13 08:55:45.510  INFO 10028 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-05-13 08:55:46.799  WARN 10028 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-13 08:55:47.817  INFO 10028 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-13 08:55:47.827  INFO 10028 --- [restartedMain] com.liuqiang.blog.BlogApplication        : Started BlogApplication in 6.847 seconds (JVM running for 9.871)
+2021-05-13 08:55:50.481  INFO 10028 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-13 08:55:50.481  INFO 10028 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-13 08:55:50.485  INFO 10028 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2021-05-13 08:55:50.535  INFO 10028 --- [http-nio-8080-exec-1] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/blog/82, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.IndexController.blog, args=[82, {}, org.apache.catalina.session.StandardSessionFacade@7a19d9d0])
+2021-05-13 08:55:50.816  INFO 10028 --- [http-nio-8080-exec-1] com.liuqiang.blog.logutils.LogAspect     : Result:blog
+2021-05-13 08:55:50.816  INFO 10028 --- [http-nio-8080-exec-1] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 08:56:02.845  INFO 10028 --- [http-nio-8080-exec-2] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/blog/81, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.IndexController.blog, args=[81, {}, org.apache.catalina.session.StandardSessionFacade@7a19d9d0])
+2021-05-13 08:56:02.893  INFO 10028 --- [http-nio-8080-exec-2] com.liuqiang.blog.logutils.LogAspect     : Result:blog
+2021-05-13 08:56:02.894  INFO 10028 --- [http-nio-8080-exec-2] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 08:56:40.514  INFO 10028 --- [http-nio-8080-exec-3] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/blog/83, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.IndexController.blog, args=[83, {}, org.apache.catalina.session.StandardSessionFacade@7a19d9d0])
+2021-05-13 08:56:40.561  INFO 10028 --- [http-nio-8080-exec-3] com.liuqiang.blog.logutils.LogAspect     : Result:blog
+2021-05-13 08:56:40.570  INFO 10028 --- [http-nio-8080-exec-3] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 09:03:05.150  INFO 10028 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-05-13 09:03:05.166  INFO 10028 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-05-13 09:03:05.181  INFO 10028 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-05-13 09:03:13.748  INFO 10041 --- [restartedMain] com.liuqiang.blog.BlogApplication        : Starting BlogApplication using Java 1.8.0_144 on bogon with PID 10041 (/Users/liuqiang/blog/target/classes started by liuqiang in /Users/liuqiang/blog)
+2021-05-13 09:03:13.755 DEBUG 10041 --- [restartedMain] com.liuqiang.blog.BlogApplication        : Running with Spring Boot v2.4.4, Spring v5.3.5
+2021-05-13 09:03:13.756  INFO 10041 --- [restartedMain] com.liuqiang.blog.BlogApplication        : The following profiles are active: dev
+2021-05-13 09:03:13.854  INFO 10041 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-13 09:03:13.854  INFO 10041 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-13 09:03:14.823  INFO 10041 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-05-13 09:03:15.023  INFO 10041 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 180 ms. Found 5 JPA repository interfaces.
+2021-05-13 09:03:16.186  INFO 10041 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-05-13 09:03:16.197  INFO 10041 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-13 09:03:16.197  INFO 10041 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-05-13 09:03:16.270  INFO 10041 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-13 09:03:16.270  INFO 10041 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2415 ms
+2021-05-13 09:03:16.547  INFO 10041 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-13 09:03:16.598  INFO 10041 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-05-13 09:03:16.705  INFO 10041 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-05-13 09:03:16.798  INFO 10041 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-05-13 09:03:17.071  INFO 10041 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-05-13 09:03:17.091  INFO 10041 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-05-13 09:03:18.478  INFO 10041 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-13 09:03:18.489  INFO 10041 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-13 09:03:18.579  INFO 10041 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-05-13 09:03:19.662  WARN 10041 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-13 09:03:20.584  INFO 10041 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-13 09:03:20.594  INFO 10041 --- [restartedMain] com.liuqiang.blog.BlogApplication        : Started BlogApplication in 7.646 seconds (JVM running for 10.312)
+2021-05-13 09:03:24.890  INFO 10041 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-13 09:03:24.890  INFO 10041 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-13 09:03:24.891  INFO 10041 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-05-13 09:03:24.926  INFO 10041 --- [http-nio-8080-exec-1] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.IndexController.index, args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}])
+2021-05-13 09:03:25.063  WARN 10041 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogList.size]; use collection function syntax instead [size(t.blogList)].
+2021-05-13 09:03:25.079  WARN 10041 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogList.size]; use collection function syntax instead [size(t.blogList)].
+2021-05-13 09:03:25.093  INFO 10041 --- [http-nio-8080-exec-1] com.liuqiang.blog.logutils.LogAspect     : Result:index
+2021-05-13 09:03:25.093  INFO 10041 --- [http-nio-8080-exec-1] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 09:03:26.298  INFO 10041 --- [http-nio-8080-exec-2] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.IndexController.bewblogs, args=[{}])
+2021-05-13 09:03:26.326  INFO 10041 --- [http-nio-8080-exec-2] com.liuqiang.blog.logutils.LogAspect     : Result:common :: newbloglist
+2021-05-13 09:03:26.326  INFO 10041 --- [http-nio-8080-exec-2] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 09:03:28.930  INFO 10041 --- [http-nio-8080-exec-3] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/blog/28, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.IndexController.blog, args=[28, {}, org.apache.catalina.session.StandardSessionFacade@20cbb7b5])
+2021-05-13 09:03:29.075  INFO 10041 --- [http-nio-8080-exec-3] com.liuqiang.blog.logutils.LogAspect     : Result:blog
+2021-05-13 09:03:29.075  INFO 10041 --- [http-nio-8080-exec-3] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 09:03:42.528  INFO 10041 --- [http-nio-8080-exec-4] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/blog/28, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.IndexController.blog, args=[28, {}, org.apache.catalina.session.StandardSessionFacade@20cbb7b5])
+2021-05-13 09:03:42.546  INFO 10041 --- [http-nio-8080-exec-4] com.liuqiang.blog.logutils.LogAspect     : Result:blog
+2021-05-13 09:03:42.546  INFO 10041 --- [http-nio-8080-exec-4] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 09:03:52.512  INFO 10041 --- [http-nio-8080-exec-5] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/adminindex, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.IndexController.adminIndex, args=[org.apache.catalina.session.StandardSessionFacade@20cbb7b5, {}])
+2021-05-13 09:03:52.513  INFO 10041 --- [http-nio-8080-exec-5] com.liuqiang.blog.logutils.LogAspect     : Result:admin/login
+2021-05-13 09:03:52.513  INFO 10041 --- [http-nio-8080-exec-5] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 09:04:33.580  INFO 10041 --- [http-nio-8080-exec-2] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.IndexController.index, args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}])
+2021-05-13 09:04:33.608  INFO 10041 --- [http-nio-8080-exec-2] com.liuqiang.blog.logutils.LogAspect     : Result:index
+2021-05-13 09:04:33.609  INFO 10041 --- [http-nio-8080-exec-2] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 09:04:34.221  INFO 10041 --- [http-nio-8080-exec-3] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.IndexController.bewblogs, args=[{}])
+2021-05-13 09:04:34.244  INFO 10041 --- [http-nio-8080-exec-3] com.liuqiang.blog.logutils.LogAspect     : Result:common :: newbloglist
+2021-05-13 09:04:34.244  INFO 10041 --- [http-nio-8080-exec-3] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 09:04:41.948  INFO 10041 --- [http-nio-8080-exec-4] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/adminindex, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.IndexController.adminIndex, args=[org.apache.catalina.session.StandardSessionFacade@20cbb7b5, {}])
+2021-05-13 09:04:41.948  INFO 10041 --- [http-nio-8080-exec-4] com.liuqiang.blog.logutils.LogAspect     : Result:admin/success
+2021-05-13 09:04:41.948  INFO 10041 --- [http-nio-8080-exec-4] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 09:04:56.566  INFO 10041 --- [http-nio-8080-exec-9] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.IndexController.index, args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}])
+2021-05-13 09:04:56.590  INFO 10041 --- [http-nio-8080-exec-9] com.liuqiang.blog.logutils.LogAspect     : Result:index
+2021-05-13 09:04:56.590  INFO 10041 --- [http-nio-8080-exec-9] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 09:04:57.175  INFO 10041 --- [http-nio-8080-exec-10] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.IndexController.bewblogs, args=[{}])
+2021-05-13 09:04:57.191  INFO 10041 --- [http-nio-8080-exec-10] com.liuqiang.blog.logutils.LogAspect     : Result:common :: newbloglist
+2021-05-13 09:04:57.191  INFO 10041 --- [http-nio-8080-exec-10] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 09:05:02.989  INFO 10041 --- [http-nio-8080-exec-1] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/blog/28, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.IndexController.blog, args=[28, {}, org.apache.catalina.session.StandardSessionFacade@20cbb7b5])
+2021-05-13 09:05:03.022  INFO 10041 --- [http-nio-8080-exec-1] com.liuqiang.blog.logutils.LogAspect     : Result:blog
+2021-05-13 09:05:03.022  INFO 10041 --- [http-nio-8080-exec-1] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 09:05:11.516  INFO 10041 --- [http-nio-8080-exec-2] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/adminindex, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.IndexController.adminIndex, args=[org.apache.catalina.session.StandardSessionFacade@20cbb7b5, {}])
+2021-05-13 09:05:11.518  INFO 10041 --- [http-nio-8080-exec-2] com.liuqiang.blog.logutils.LogAspect     : Result:admin/success
+2021-05-13 09:05:11.518  INFO 10041 --- [http-nio-8080-exec-2] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 09:05:33.471  INFO 10041 --- [http-nio-8080-exec-8] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/blog/28, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.IndexController.blog, args=[28, {}, org.apache.catalina.session.StandardSessionFacade@20cbb7b5])
+2021-05-13 09:05:33.493  INFO 10041 --- [http-nio-8080-exec-8] com.liuqiang.blog.logutils.LogAspect     : Result:blog
+2021-05-13 09:05:33.494  INFO 10041 --- [http-nio-8080-exec-8] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 09:06:20.680  INFO 10041 --- [http-nio-8080-exec-9] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/blog/28, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.IndexController.blog, args=[28, {}, org.apache.catalina.session.StandardSessionFacade@20cbb7b5])
+2021-05-13 09:06:20.697  INFO 10041 --- [http-nio-8080-exec-9] com.liuqiang.blog.logutils.LogAspect     : Result:blog
+2021-05-13 09:06:20.697  INFO 10041 --- [http-nio-8080-exec-9] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 09:06:29.475  INFO 10041 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-05-13 09:06:29.501  INFO 10041 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-05-13 09:06:29.509  INFO 10041 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-05-13 09:06:34.462  INFO 10048 --- [restartedMain] com.liuqiang.blog.BlogApplication        : Starting BlogApplication using Java 1.8.0_144 on bogon with PID 10048 (/Users/liuqiang/blog/target/classes started by liuqiang in /Users/liuqiang/blog)
+2021-05-13 09:06:34.464 DEBUG 10048 --- [restartedMain] com.liuqiang.blog.BlogApplication        : Running with Spring Boot v2.4.4, Spring v5.3.5
+2021-05-13 09:06:34.465  INFO 10048 --- [restartedMain] com.liuqiang.blog.BlogApplication        : The following profiles are active: dev
+2021-05-13 09:06:34.519  INFO 10048 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-13 09:06:34.519  INFO 10048 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-13 09:06:35.313  INFO 10048 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-05-13 09:06:35.384  INFO 10048 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 63 ms. Found 5 JPA repository interfaces.
+2021-05-13 09:06:36.171  INFO 10048 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-05-13 09:06:36.180  INFO 10048 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-13 09:06:36.180  INFO 10048 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-05-13 09:06:36.240  INFO 10048 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-13 09:06:36.240  INFO 10048 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1720 ms
+2021-05-13 09:06:36.541  INFO 10048 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-13 09:06:36.576  INFO 10048 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-05-13 09:06:36.665  INFO 10048 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-05-13 09:06:36.740  INFO 10048 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-05-13 09:06:37.033  INFO 10048 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-05-13 09:06:37.050  INFO 10048 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-05-13 09:06:37.895  INFO 10048 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-13 09:06:37.905  INFO 10048 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-13 09:06:37.990  INFO 10048 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-05-13 09:06:38.869  WARN 10048 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-13 09:06:39.925  INFO 10048 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-13 09:06:39.936  INFO 10048 --- [restartedMain] com.liuqiang.blog.BlogApplication        : Started BlogApplication in 6.041 seconds (JVM running for 9.386)
+2021-05-13 09:06:44.575  INFO 10048 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-13 09:06:44.575  INFO 10048 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-13 09:06:44.577  INFO 10048 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-05-13 09:06:44.614  INFO 10048 --- [http-nio-8080-exec-1] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/blog/28, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.IndexController.blog, args=[28, {}, org.apache.catalina.session.StandardSessionFacade@66a7abf4])
+2021-05-13 09:06:44.803  INFO 10048 --- [http-nio-8080-exec-1] com.liuqiang.blog.logutils.LogAspect     : Result:blog
+2021-05-13 09:06:44.803  INFO 10048 --- [http-nio-8080-exec-1] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 09:08:08.183  INFO 10048 --- [http-nio-8080-exec-4] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/blog/28, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.IndexController.blog, args=[28, {}, org.apache.catalina.session.StandardSessionFacade@66a7abf4])
+2021-05-13 09:08:08.208  INFO 10048 --- [http-nio-8080-exec-4] com.liuqiang.blog.logutils.LogAspect     : Result:blog
+2021-05-13 09:08:08.208  INFO 10048 --- [http-nio-8080-exec-4] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 09:08:08.831  INFO 10048 --- [http-nio-8080-exec-5] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.IndexController.bewblogs, args=[{}])
+2021-05-13 09:08:08.858  INFO 10048 --- [http-nio-8080-exec-5] com.liuqiang.blog.logutils.LogAspect     : Result:common :: newbloglist
+2021-05-13 09:08:08.858  INFO 10048 --- [http-nio-8080-exec-5] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 09:08:14.820  INFO 10048 --- [http-nio-8080-exec-6] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/comments, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.CommentController.post, args=[Comment{id=null, email='', nickname='游客', avatar='null', content='eeeee', createTime=null, parentComment=Comment{id=-1, email='null', nickname='null', avatar='null', content='null', createTime=null, parentComment=null}}, org.apache.catalina.session.StandardSessionFacade@66a7abf4])
+2021-05-13 09:08:14.888  INFO 10048 --- [http-nio-8080-exec-6] com.liuqiang.blog.logutils.LogAspect     : Result:redirect:/comment/28
+2021-05-13 09:08:14.889  INFO 10048 --- [http-nio-8080-exec-6] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 09:08:14.907  INFO 10048 --- [http-nio-8080-exec-7] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/comment/28, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.CommentController.comments, args=[28, {}])
+2021-05-13 09:08:14.914  INFO 10048 --- [http-nio-8080-exec-7] com.liuqiang.blog.logutils.LogAspect     : Result:blog :: commentList
+2021-05-13 09:08:14.914  INFO 10048 --- [http-nio-8080-exec-7] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 09:08:22.517  INFO 10048 --- [http-nio-8080-exec-8] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/types/0, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.TypeShowController.show, args=[Page request [number: 0, size 5, sort: updateTime: DESC], 0, {}])
+2021-05-13 09:08:22.579  INFO 10048 --- [http-nio-8080-exec-8] com.liuqiang.blog.logutils.LogAspect     : Result:types
+2021-05-13 09:08:22.579  INFO 10048 --- [http-nio-8080-exec-8] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 09:08:23.783  INFO 10048 --- [http-nio-8080-exec-9] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/types/2, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.TypeShowController.show, args=[Page request [number: 0, size 5, sort: updateTime: DESC], 2, {}])
+2021-05-13 09:08:23.821  INFO 10048 --- [http-nio-8080-exec-9] com.liuqiang.blog.logutils.LogAspect     : Result:types
+2021-05-13 09:08:23.821  INFO 10048 --- [http-nio-8080-exec-9] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 09:08:24.935  INFO 10048 --- [http-nio-8080-exec-10] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/blog/28, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.IndexController.blog, args=[28, {}, org.apache.catalina.session.StandardSessionFacade@66a7abf4])
+2021-05-13 09:08:24.964  INFO 10048 --- [http-nio-8080-exec-10] com.liuqiang.blog.logutils.LogAspect     : Result:blog
+2021-05-13 09:08:24.964  INFO 10048 --- [http-nio-8080-exec-10] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 09:08:25.843  INFO 10048 --- [http-nio-8080-exec-1] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.IndexController.bewblogs, args=[{}])
+2021-05-13 09:08:25.861  INFO 10048 --- [http-nio-8080-exec-1] com.liuqiang.blog.logutils.LogAspect     : Result:common :: newbloglist
+2021-05-13 09:08:25.861  INFO 10048 --- [http-nio-8080-exec-1] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 09:08:29.598  INFO 10048 --- [http-nio-8080-exec-2] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/comments, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.CommentController.post, args=[Comment{id=null, email='', nickname='游客', avatar='null', content='eeeee', createTime=null, parentComment=Comment{id=86, email='null', nickname='null', avatar='null', content='null', createTime=null, parentComment=null}}, org.apache.catalina.session.StandardSessionFacade@66a7abf4])
+2021-05-13 09:08:29.621  INFO 10048 --- [http-nio-8080-exec-2] com.liuqiang.blog.logutils.LogAspect     : Result:redirect:/comment/28
+2021-05-13 09:08:29.622  INFO 10048 --- [http-nio-8080-exec-2] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 09:08:29.627  INFO 10048 --- [http-nio-8080-exec-3] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/comment/28, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.CommentController.comments, args=[28, {}])
+2021-05-13 09:08:29.638  INFO 10048 --- [http-nio-8080-exec-3] com.liuqiang.blog.logutils.LogAspect     : Result:blog :: commentList
+2021-05-13 09:08:29.638  INFO 10048 --- [http-nio-8080-exec-3] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 09:09:11.372  INFO 10048 --- [http-nio-8080-exec-1] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/blog/28, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.IndexController.blog, args=[28, {}, org.apache.catalina.session.StandardSessionFacade@66a7abf4])
+2021-05-13 09:09:11.393  INFO 10048 --- [http-nio-8080-exec-1] com.liuqiang.blog.logutils.LogAspect     : Result:blog
+2021-05-13 09:09:11.393  INFO 10048 --- [http-nio-8080-exec-1] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 09:09:11.901  INFO 10048 --- [http-nio-8080-exec-2] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.IndexController.bewblogs, args=[{}])
+2021-05-13 09:09:11.915  INFO 10048 --- [http-nio-8080-exec-2] com.liuqiang.blog.logutils.LogAspect     : Result:common :: newbloglist
+2021-05-13 09:09:11.915  INFO 10048 --- [http-nio-8080-exec-2] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 09:09:18.451  INFO 10048 --- [http-nio-8080-exec-3] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/myself, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.IndexController.myself, args=[])
+2021-05-13 09:09:18.451  INFO 10048 --- [http-nio-8080-exec-3] com.liuqiang.blog.logutils.LogAspect     : Result:myself
+2021-05-13 09:09:18.451  INFO 10048 --- [http-nio-8080-exec-3] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 09:09:18.920  INFO 10048 --- [http-nio-8080-exec-4] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.IndexController.bewblogs, args=[{}])
+2021-05-13 09:09:18.933  INFO 10048 --- [http-nio-8080-exec-4] com.liuqiang.blog.logutils.LogAspect     : Result:common :: newbloglist
+2021-05-13 09:09:18.933  INFO 10048 --- [http-nio-8080-exec-4] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 09:09:42.526  INFO 10048 --- [http-nio-8080-exec-5] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.IndexController.index, args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}])
+2021-05-13 09:09:42.554  WARN 10048 --- [http-nio-8080-exec-5] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogList.size]; use collection function syntax instead [size(t.blogList)].
+2021-05-13 09:09:42.559  WARN 10048 --- [http-nio-8080-exec-5] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogList.size]; use collection function syntax instead [size(t.blogList)].
+2021-05-13 09:09:42.568  INFO 10048 --- [http-nio-8080-exec-5] com.liuqiang.blog.logutils.LogAspect     : Result:index
+2021-05-13 09:09:42.569  INFO 10048 --- [http-nio-8080-exec-5] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 09:09:43.182  INFO 10048 --- [http-nio-8080-exec-6] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.IndexController.bewblogs, args=[{}])
+2021-05-13 09:09:43.202  INFO 10048 --- [http-nio-8080-exec-6] com.liuqiang.blog.logutils.LogAspect     : Result:common :: newbloglist
+2021-05-13 09:09:43.203  INFO 10048 --- [http-nio-8080-exec-6] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 09:09:46.076  INFO 10048 --- [http-nio-8080-exec-7] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/types/0, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.TypeShowController.show, args=[Page request [number: 0, size 5, sort: updateTime: DESC], 0, {}])
+2021-05-13 09:09:46.089  INFO 10048 --- [http-nio-8080-exec-7] com.liuqiang.blog.logutils.LogAspect     : Result:types
+2021-05-13 09:09:46.090  INFO 10048 --- [http-nio-8080-exec-7] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 09:11:46.429  INFO 10048 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-05-13 09:11:46.440  INFO 10048 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-05-13 09:11:46.459  INFO 10048 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-05-13 09:11:54.916  INFO 10066 --- [restartedMain] com.liuqiang.blog.BlogApplication        : Starting BlogApplication using Java 1.8.0_144 on bogon with PID 10066 (/Users/liuqiang/blog/target/classes started by liuqiang in /Users/liuqiang/blog)
+2021-05-13 09:11:54.922 DEBUG 10066 --- [restartedMain] com.liuqiang.blog.BlogApplication        : Running with Spring Boot v2.4.4, Spring v5.3.5
+2021-05-13 09:11:54.922  INFO 10066 --- [restartedMain] com.liuqiang.blog.BlogApplication        : The following profiles are active: dev
+2021-05-13 09:11:54.991  INFO 10066 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-13 09:11:54.991  INFO 10066 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-13 09:11:56.045  INFO 10066 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-05-13 09:11:56.129  INFO 10066 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 71 ms. Found 5 JPA repository interfaces.
+2021-05-13 09:11:56.849  INFO 10066 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-05-13 09:11:56.857  INFO 10066 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-13 09:11:56.857  INFO 10066 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-05-13 09:11:56.913  INFO 10066 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-13 09:11:56.913  INFO 10066 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1921 ms
+2021-05-13 09:11:57.220  INFO 10066 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-13 09:11:57.260  INFO 10066 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-05-13 09:11:57.353  INFO 10066 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-05-13 09:11:57.442  INFO 10066 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-05-13 09:11:57.710  INFO 10066 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-05-13 09:11:57.726  INFO 10066 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-05-13 09:11:58.544  INFO 10066 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-13 09:11:58.552  INFO 10066 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-13 09:11:58.624  INFO 10066 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-05-13 09:11:59.517  WARN 10066 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-13 09:12:00.330  INFO 10066 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-13 09:12:00.340  INFO 10066 --- [restartedMain] com.liuqiang.blog.BlogApplication        : Started BlogApplication in 5.971 seconds (JVM running for 8.75)
+2021-05-13 09:13:29.923  INFO 10066 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-13 09:13:29.924  INFO 10066 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-13 09:13:29.927  INFO 10066 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2021-05-13 09:13:29.995  INFO 10066 --- [http-nio-8080-exec-1] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.IndexController.index, args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}])
+2021-05-13 09:13:30.251  WARN 10066 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogList.size]; use collection function syntax instead [size(t.blogList)].
+2021-05-13 09:13:30.269  WARN 10066 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogList.size]; use collection function syntax instead [size(t.blogList)].
+2021-05-13 09:13:30.284  INFO 10066 --- [http-nio-8080-exec-1] com.liuqiang.blog.logutils.LogAspect     : Result:index
+2021-05-13 09:13:30.284  INFO 10066 --- [http-nio-8080-exec-1] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 09:13:31.408  INFO 10066 --- [http-nio-8080-exec-2] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.IndexController.bewblogs, args=[{}])
+2021-05-13 09:13:31.431  INFO 10066 --- [http-nio-8080-exec-2] com.liuqiang.blog.logutils.LogAspect     : Result:common :: newbloglist
+2021-05-13 09:13:31.431  INFO 10066 --- [http-nio-8080-exec-2] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 09:13:33.351  INFO 10066 --- [http-nio-8080-exec-3] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/types/0, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.TypeShowController.show, args=[Page request [number: 0, size 5, sort: updateTime: DESC], 0, {}])
+2021-05-13 09:13:33.393  INFO 10066 --- [http-nio-8080-exec-3] com.liuqiang.blog.logutils.LogAspect     : Result:types
+2021-05-13 09:13:33.394  INFO 10066 --- [http-nio-8080-exec-3] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 09:13:33.987  INFO 10066 --- [http-nio-8080-exec-4] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.IndexController.bewblogs, args=[{}])
+2021-05-13 09:13:34.005  INFO 10066 --- [http-nio-8080-exec-4] com.liuqiang.blog.logutils.LogAspect     : Result:common :: newbloglist
+2021-05-13 09:13:34.005  INFO 10066 --- [http-nio-8080-exec-4] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 09:13:37.089  INFO 10066 --- [http-nio-8080-exec-5] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/tags/0, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.TypeShowController.shows, args=[Page request [number: 0, size 5, sort: updateTime: DESC], 0, {}])
+2021-05-13 09:13:37.118  INFO 10066 --- [http-nio-8080-exec-5] com.liuqiang.blog.logutils.LogAspect     : Result:tags
+2021-05-13 09:13:37.118  INFO 10066 --- [http-nio-8080-exec-5] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 09:13:37.647  INFO 10066 --- [http-nio-8080-exec-6] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.IndexController.bewblogs, args=[{}])
+2021-05-13 09:13:37.664  INFO 10066 --- [http-nio-8080-exec-6] com.liuqiang.blog.logutils.LogAspect     : Result:common :: newbloglist
+2021-05-13 09:13:37.665  INFO 10066 --- [http-nio-8080-exec-6] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 09:13:41.088  INFO 10066 --- [http-nio-8080-exec-7] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/tags/24, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.TypeShowController.shows, args=[Page request [number: 0, size 5, sort: updateTime: DESC], 24, {}])
+2021-05-13 09:13:41.114  INFO 10066 --- [http-nio-8080-exec-7] com.liuqiang.blog.logutils.LogAspect     : Result:tags
+2021-05-13 09:13:41.115  INFO 10066 --- [http-nio-8080-exec-7] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 09:13:41.587  INFO 10066 --- [http-nio-8080-exec-8] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.IndexController.bewblogs, args=[{}])
+2021-05-13 09:13:41.602  INFO 10066 --- [http-nio-8080-exec-8] com.liuqiang.blog.logutils.LogAspect     : Result:common :: newbloglist
+2021-05-13 09:13:41.603  INFO 10066 --- [http-nio-8080-exec-8] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 09:13:43.550  INFO 10066 --- [http-nio-8080-exec-9] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/tags/2, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.TypeShowController.shows, args=[Page request [number: 0, size 5, sort: updateTime: DESC], 2, {}])
+2021-05-13 09:13:43.567  INFO 10066 --- [http-nio-8080-exec-9] com.liuqiang.blog.logutils.LogAspect     : Result:tags
+2021-05-13 09:13:43.568  INFO 10066 --- [http-nio-8080-exec-9] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 09:13:44.072  INFO 10066 --- [http-nio-8080-exec-10] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.IndexController.bewblogs, args=[{}])
+2021-05-13 09:13:44.086  INFO 10066 --- [http-nio-8080-exec-10] com.liuqiang.blog.logutils.LogAspect     : Result:common :: newbloglist
+2021-05-13 09:13:44.087  INFO 10066 --- [http-nio-8080-exec-10] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 09:13:46.736  INFO 10066 --- [http-nio-8080-exec-1] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/archives, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.TypeShowController.achives, args=[{}])
+2021-05-13 09:13:46.768  INFO 10066 --- [http-nio-8080-exec-1] com.liuqiang.blog.logutils.LogAspect     : Result:archives
+2021-05-13 09:13:46.769  INFO 10066 --- [http-nio-8080-exec-1] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 09:13:47.197  INFO 10066 --- [http-nio-8080-exec-2] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.IndexController.bewblogs, args=[{}])
+2021-05-13 09:13:47.216  INFO 10066 --- [http-nio-8080-exec-2] com.liuqiang.blog.logutils.LogAspect     : Result:common :: newbloglist
+2021-05-13 09:13:47.216  INFO 10066 --- [http-nio-8080-exec-2] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 09:13:51.190  INFO 10066 --- [http-nio-8080-exec-3] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/myself, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.IndexController.myself, args=[])
+2021-05-13 09:13:51.191  INFO 10066 --- [http-nio-8080-exec-3] com.liuqiang.blog.logutils.LogAspect     : Result:myself
+2021-05-13 09:13:51.191  INFO 10066 --- [http-nio-8080-exec-3] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 09:13:51.553  INFO 10066 --- [http-nio-8080-exec-4] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/footer/newblog, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.IndexController.bewblogs, args=[{}])
+2021-05-13 09:13:51.565  INFO 10066 --- [http-nio-8080-exec-4] com.liuqiang.blog.logutils.LogAspect     : Result:common :: newbloglist
+2021-05-13 09:13:51.566  INFO 10066 --- [http-nio-8080-exec-4] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 09:13:54.382  INFO 10066 --- [http-nio-8080-exec-5] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/enroll, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.IndexController.enroll, args=[])
+2021-05-13 09:13:54.383  INFO 10066 --- [http-nio-8080-exec-5] com.liuqiang.blog.logutils.LogAspect     : Result:admin/enroll
+2021-05-13 09:13:54.383  INFO 10066 --- [http-nio-8080-exec-5] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 09:14:02.413  INFO 10066 --- [http-nio-8080-exec-6] com.liuqiang.blog.logutils.LogAspect     : Request:LogAspect.RequestLog(url=http://localhost:8080/adminindex, ip=0:0:0:0:0:0:0:1, classMethod=com.liuqiang.blog.controller.IndexController.adminIndex, args=[org.apache.catalina.session.StandardSessionFacade@bba3a75, {}])
+2021-05-13 09:14:02.415  INFO 10066 --- [http-nio-8080-exec-6] com.liuqiang.blog.logutils.LogAspect     : Result:admin/login
+2021-05-13 09:14:02.416  INFO 10066 --- [http-nio-8080-exec-6] com.liuqiang.blog.logutils.LogAspect     : =====doAfter=====
+2021-05-13 09:16:19.434  INFO 10066 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-05-13 09:16:19.441  INFO 10066 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-05-13 09:16:19.455  INFO 10066 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

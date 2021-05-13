@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<!-- css and js-->
+<head th:fragment="cssandjs">
+
+
+    <link rel="stylesheet" href="/css/typo.css"
+          th:href="@{/css/typo.css}">
+    <link rel="stylesheet" href="/css/animate.css"
+          th:href="@{/css/animate.css}">
+    <link rel="stylesheet" href="/lib/prism/prism.css"
+          th:href="@{/lib/prism/prism.css}">
+    <link rel="stylesheet" href="/lib/tocbot/tocbot.css"
+          th:href="@{/lib/tocbot/tocbot.css}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.css" >
+    <link rel="stylesheet" href="/lib/editormd/css/editormd.min.css"
+          th:href="@{/lib/editormd/css/editormd.min.css}">
+    <link rel="stylesheet" href="/css/me.css"
+          th:href="@{/css/me.css}">
+<!--    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2/dist/jquery.min.js"></script>-->
+<!--    <script src="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.js"></script>-->
+<!--    <script src="https://cdn.jsdelivr.net/npm/jquery.scrollto@2.1.2/jquery.scrollTo.min.js"></script>-->
+<!--    <script src="/lib/prism/prism.js"-->
+<!--            th:href="@{/lib/prism/prism.js}"></script>-->
+<!--    <script src="/lib/tocbot/min/tocbot.min.js"-->
+<!--            th:href="@{/lib/tocbot/min/tocbot.min.js}"></script>-->
+<!--    <script src="/lib/qrcode/min/qrcode.min.js"-->
+<!--            th:href="@{/lib/qrcode/min/qrcode.min.js}"></script>-->
+<!--    <script src="/lib/waypoints/min/jquery.waypoints.min.js"-->
+<!--            th:href="@{/lib/waypoints/min/jquery.waypoints.min.js}"></script>-->
+<!--    <script src="/lib/editormd/editormd.min.js"-->
+<!--            th:href="@{/lib/editormd/editormd.min.js}"></script>-->
+
+<!--    <script>-->
+<!--        $('#newblog-container').load(/*[[@{/footer/newblog}]]*/"/footer/newblog");-->
+<!--    </script>-->
+
+
+
+</head>
+<body>
+<!--   导航-->
+<nav th:fragment="navigation(n)" class="ui inverted attached segment m-padded-tb-mini m-shadow-small m-opacity-mini">
+    <div class="ui m-container">
+        <div class="ui inverted secondary stackable menu">  <!--stackable 可堆叠效果-->
+            <h2 class="ui teal header item">Blog</h2>
+            <a href="#" th:href="@{/}" class="m-item item m-mobile-hide" th:classappend="${n==1} ? 'active'"><i
+                    class=" home icon"></i>首页</a>
+            <a href="#" th:href="@{/types/0}" class="m-item item m-mobile-hide"
+               th:classappend="${n==2} ? 'active'"><i
+                    class=" idea icon"></i>分类</a>
+            <a href="#" th:href="@{/tags/0}" class="m-item item m-mobile-hide" th:classappend="${n==3} ? 'active'"><i
+                    class=" tags icon"></i>标签</a>
+            <a href="#" th:href="@{/archives}" class="m-item item m-mobile-hide" th:classappend="${n==4} ? 'active'"><i
+                    class=" clone icon"></i>归档</a>
+            <a href="#" th:href="@{/myself}" class="m-item item m-mobile-hide" th:classappend="${n==5} ? 'active'"><i
+                    class="info icon"></i>我的</a>
+            <a href="#" th:href="@{/enroll}" class="m-item item m-mobile-hide" th:classappend="${n==null} ? 'active'"><i
+                    class="info icon"></i>注册</a>
+            <div class="right m-item item m-mobile-hide">
+                <form name="search" action="#" th:action="@{/search}" target="_blank" method="post">
+                    <div class="ui icon inverted transparent input">
+                        <input type="text" name="query" placeholder="请输入查询的内容" th:value="${query}"/>
+                        <i onclick="document.forms['search'].submit()" class="search link icon"></i>
+                    </div>
+                </form>
+
+            </div>
+            <div class="right m-item m-mobile-hide menu">
+                <div class="ui dropdown item">
+                    <div class="text">
+<!--                        <img class="ui avatar image" src="https://unsplash.it/100/100?image=1005"-->
+<!--                             th:src="@{${session.blogger.avatar}!=null?} "/>-->
+                        <a href="#"
+                           th:href="@{/adminindex}"><span
+                                th:text="${session.blogger} !=null ?${session.blogger.nickname}:'未登录'">author
+                        </span></a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="ui menu toggle black icon button m-right-top m-mobile-show" >
+        <i class="sidebar icon"></i>
+    </a>
+</nav>
+
+<!--  页脚-->
+<footer th:fragment="footer" class="ui inverted vertical segment m-padded-tb-massive m-opacity-mini" >
+    <div class="ui center aligned container">
+        <div class="ui inverted divided stackable grid">
+            <div class="three wide column">
+                <div class="ui inverted link list">
+                    <div class="item">
+                        <img src="/images/gzh.jpg" th:src="@{/images/gzh.jpg}"
+                             class="ui rounded image" alt=""
+                             style="width: 110px">
+                    </div>
+                </div>
+            </div>
+            <div class="three wide column">
+                <h4 class="ui inverted header m-text-thin m-text-spaced">最新博客</h4>
+                <div id="newblog-container" >
+                    <div class="ui inverted link list  m-opacity-mini" th:fragment="newbloglist" >
+                        <a href="#" th:href="@{/blog/{id}(id=${blog.id})}" target="_blank" class="item m-text-thin"
+                           th:each="blog : ${newblogs}"
+                           th:text="${blog.title}">blog1</a>
+
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="three wide column">
+                <h4 class="ui inverted header m-text-thin m-text-spaced">联系方式</h4>
+                <div class="ui inverted link list m-text-thin m-text-spaced m-opacity-mini">
+                    <p>QQ: 1391334766</p>
+                    <p>WeChat: liuqiang10011</p>
+
+
+                </div>
+            </div>
+            <div class="seven wide column">
+                <h4 class="ui inverted header m-text-thin m-text-spaced">博客简介</h4>
+                <p class="m-text-thin m-text-spaced m-opacity-mini">分享一些关于日常琐事</p>
+            </div>
+        </div>
+        <div class="ui inverted section divider"></div>
+        <p class="m-text-thin m-text-spaced m-opacity-mini">Copyright @ 2021-04 - 2021-05</p>
+    </div>
+
+</footer>
+
+<th:block th:fragment="script">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery.scrollto@2.1.2/jquery.scrollTo.min.js"></script>
+    <script src="/lib/prism/prism.js"
+            th:href="@{/lib/prism/prism.js}"></script>
+    <script src="/lib/tocbot/min/tocbot.min.js"
+            th:href="@{/lib/tocbot/min/tocbot.min.js}"></script>
+    <script src="/lib/qrcode/min/qrcode.min.js"
+            th:href="@{/lib/qrcode/min/qrcode.min.js}"></script>
+    <script src="/lib/waypoints/min/jquery.waypoints.min.js"
+            th:href="@{/lib/waypoints/min/jquery.waypoints.min.js}"></script>
+    <script src="/lib/editormd/editormd.min.js"
+            th:href="@{/lib/editormd/editormd.min.js}"></script>
+    <script>
+        $('#newblog-container').load(/*[[@{/footer/newblog}]]*/"/footer/newblog");
+    </script>
+</th:block>
+
+</body>
+</html>

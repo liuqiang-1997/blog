@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="admin/admincommon::cssandjs">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>后台管理注册</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.css" >
+    <link rel="stylesheet" href="../../static/css/me.css">
+</head>
+<body>
+
+<div class="m-container-small m-padded-tb-massive m-opacity-mini" style="max-width: 30em !important;">
+    <div class="ui container">
+        <div class="ui middle aligned center aligned grid">
+            <div class="column">
+                <h2 class="ui teal image header">
+                    <img src="../static/images/logo.png" th:src="@{/images/logo.png}" class="image">
+                    <div class="content">
+                        后台管理注册
+                    </div>
+                </h2>
+                <form class="ui large form" method="post" action="#" th:action="@{/enroll}">
+                    <div class="ui stacked segment">
+                        <div class="field">
+                            <div class="ui left icon input">
+                                <i class="user icon"></i>
+                                <input type="text" name="nickname" placeholder="nickname">
+                            </div>
+                        </div>
+                        <div class="field">
+                            <div class="ui left icon input">
+                                <i class="user icon"></i>
+                                <input type="text" name="username" placeholder="username">
+                            </div>
+                        </div>
+                        <div class="field">
+                            <div class="ui left icon input">
+                                <i class="lock icon"></i>
+                                <input type="password" name="password" placeholder="Password">
+                            </div>
+                        </div>
+                        <div class="field">
+                            <div class="ui left icon input">
+                                <i class="user icon"></i>
+                                <input type="email" name="email" placeholder="email">
+                            </div>
+                        </div>
+                        <div class="field">
+                            <div class="ui left icon input">
+                                <i class="user icon"></i>
+                                <input type="text" name="avatar" placeholder="avatar">
+                            </div>
+                        </div>
+
+                        <button class="ui fluid large teal submit button">注册</button>
+                    </div>
+
+                    <div class="ui error mini message">
+                        <div class="ui mini negative message" th:unless="${#strings.isEmpty(errormessage)}"
+                             th:text="${errormessage}">用户名和密码错误</div>
+                    </div>
+
+
+                </form>
+
+                <div class="ui message">
+                    New to us? <a href="#" th:href="@{/admin}">Login in</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+
+
+
+<br/>
+<br/>
+<!--   底部-->
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.2/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.js"></script>
+<script>
+    $('.ui.form').form({
+        fields :{
+            username:{
+                identifier:'username',
+                rules:[{
+                    type:'empty',
+                    prompt:'用户名不能为空！'
+                }]
+            },
+            password:{
+                identifier:'password',
+                rules:[{
+                    type:'empty',
+                    prompt:'密码不能为空！'
+                }]
+            },
+            nickname: {
+                identifier: 'nickname',
+                rules: [{
+                    type: 'empty',
+                    prompt: '昵称不能为空！'
+                }]
+            },
+            email:{
+                identifier:'email',
+                rules:[{
+                    type:'empty',
+                    prompt:'邮箱不能为空！'
+                }]
+            },
+            avatar: {
+                identifier: 'avatar',
+                rules: [{
+                    type: 'empty',
+                    prompt: '头像不能为空！'
+                }]
+            },
+        }
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="ThemeBucket">
+    <title>500</title>
+    <link href="css/style.css" th:href="@{/css/style.css}" rel="stylesheet">
+    <link href="css/style-responsive.css" th:href="@{css/style-responsive.css}" rel="stylesheet">
+    <div th:include="common :: cssandjs"></div>
+</head>
+<body>
+
+<!--   导航-->
+<nav th:replace="common :: navigation(null)"></nav>
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<section>
+    <div class="container" align="center">
+
+        <section class="error-wrapper text-center">
+            <h1><img alt="" src="images/500-error.png" th:src="@{/images/500-error.png}"></h1>
+            <h2>OOOPS!!!</h2>
+            <h3>Something went wrong.</h3>
+            <p class="nrml-txt">Why not try refreshing you page? Or you can <a href="#">contact our support</a> if the problem persists.</p>
+            <a class="back-btn" href="/"> Back To Home</a>
+        </section>
+
+    </div>
+</section>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<!--   底部-->
+<footer th:replace="common :: footer"></footer>
+
+</body>
+</html>

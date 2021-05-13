@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="admin/admincommon::cssandjs">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>博客管理</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.css" >
+
+</head>
+<body>
+
+<!--   导航-->
+<nav th:replace="admin/admincommon:: navigation(null)"></nav>
+
+<!--    二级导航-->
+<div class="ui attached inverted  pointing menu m-opacity-mini">
+    <div class="ui container">
+        <div class="right menu">
+            <div class="ui dropdown item">
+                <div class="text">
+                    新增
+                </div>
+                <i class="dropdown icon"></i>
+                <div class="menu">
+                    <a href="#" class="item" th:href="@{/admin/blogs/input}">博客</a>
+                    <a href="#" class="item" th:href="@{/admin/types/input}" >分类</a>
+                    <a href="#" class="item" th:href="@{/admin/tags/input}" >标签</a>
+                </div>
+            </div>
+            <div class="ui dropdown item">
+                <div class="text">
+                    列表
+                </div>
+                <i class="dropdown icon"></i>
+                <div class="menu">
+                    <a href="#" class="item" th:href="@{/admin/blogs}">博客</a>
+                    <a href="#" class="item" th:href="@{/admin/tags}">标签</a>
+                    <a href="#" class="item" th:href="@{/admin/types}" >分类</a>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+</div>
+<!--      博客内容 -->
+
+<div class="m-container-small m-padded-tb-big">
+    <div class="ui container">
+        <div class="ui success large message">
+            <h2>欢迎登录</h2>
+        </div>
+
+    </div>
+</div>
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+<!--   底部-->
+<footer th:replace="admin/admincommon::footer"></footer>
+
+<!--<script src="https://cdn.jsdelivr.net/npm/jquery@3.2/dist/jquery.min.js"></script>-->
+<!--<script src="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.js"></script>-->
+<script>
+    $(".menu.toggle").click(function (){
+        $(".m-item").toggleClass("m-mobile-hide");
+    });
+
+    $('.ui.dropdown').dropdown({
+        on:'click'
+    });
+</script>
+</body>
+</html>

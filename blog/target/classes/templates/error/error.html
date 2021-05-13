@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>erro</title>
+    <link href="css/style.css" th:href="@{/css/style.css}" rel="stylesheet">
+    <link href="css/style-responsive.css" th:href="@{css/style-responsive.css}" rel="stylesheet">
+    <div th:include="common :: cssandjs"></div>
+</head>
+<body>
+<!--   导航-->
+<nav th:replace="common :: navigation(null)"></nav>
+
+
+<section>
+    <div class="container " align="center">
+
+        <section class="error-wrapper text-center">
+<!--            <h1><img src="../static/images/errorp.jpeg" alt="" th:src="@{/resources/images/errorp.jpeg}"/></h1>-->
+            <h2>It's nothing to do with you.</h2>
+            <a class="back-btn" href="/"> Back To Home</a>
+        </section>
+
+    </div>
+</section>
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<!--   底部-->
+<footer th:replace="common :: footer"></footer>
+
+</body>
+</html>

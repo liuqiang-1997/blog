@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的主页</title>
+    <div th:include="common :: cssandjs"></div>
+</head>
+<body>
+
+<!--   导航-->
+<nav th:replace="common :: navigation(5)"></nav>
+<!--      内容 -->
+
+    <div class="m-container-small m-padded-tb-big">
+        <div class="ui container">
+            <div class="ui stackable grid">
+                <div class="five wide column">
+                    <div class="ui top attached segment">
+                       <div class="ui teal header">关于我</div>
+                    </div>
+                    <div class="ui attached segment">
+                        <p class="m-text"> 作者简介dsfjhsfklhsflkhslf</p>
+                        <p class="m-text"> 阿斯顿是开发好看的是否考虑到是否考虑是否合理收费sflkhslf</p>
+                    </div>
+                    <div class="ui attached segment">
+                        <div class="ui orange basic left pointing label">吃饭</div>
+                        <div class="ui orange basic left pointing label">吃饭</div>
+                        <div class="ui orange basic left pointing label">吃饭</div>
+                        <div class="ui orange basic left pointing label">吃饭</div>
+                        <div class="ui orange basic left pointing label">吃饭</div>
+                    </div>
+                    <div class="ui attached segment">
+                        <div class="ui teal basic left pointing label m-margin-tb-tiny">吃饭</div>
+                        <div class="ui teal basic left pointing label m-margin-tb-tiny">吃饭</div>
+                        <div class="ui teal basic left pointing label m-margin-tb-tiny">吃饭</div>
+                        <div class="ui teal basic left pointing label m-margin-tb-tiny">吃饭</div>
+                        <div class="ui teal basic left pointing label m-margin-tb-tiny">吃饭</div>
+                        <div class="ui teal basic left pointing label m-margin-tb-tiny">吃饭</div>
+                    </div>
+                    <div class="ui bottom attached segment">
+                        <a href="#" class="ui github circular icon button"><i class="github icon"></i></a>
+                        <a href="#" class="ui wechat circular icon button"><i class="weixin icon"></i></a>
+                        <a href="#" class="ui qq circular icon button"><i class="qq icon"></i></a>
+                    </div>
+                    <div class="ui qq-qr flowing popup transition hidden">
+                        <img src="../static/images/qq.jpg" th:src="@{/images/qq.jpg}"
+                             alt="" class="ui rounded image" style="width:
+                        100px">
+                    </div>
+
+                    <div class="ui wechat-qr flowing popup transition hidden">
+                        <img src="../static/images/3751618569449.jpg" th:src="@{/images/3751618569449.jpg}"
+                             alt="" class="ui rounded image" style="width:
+                        100px">
+                    </div>
+                    <div class="ui github-qr flowing popup transition hidden">
+                       <a href="https://github.com/liuqiang-1997">https://github.com/liuqiang-1997</a>
+                    </div>
+
+                </div>
+                <div class="eleven wide column">
+                    <div class="ui segment">
+                       <img src="https://unsplash.it/2000/800?image=1005" alt="" class="ui rounded image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+
+
+<!--   底部-->
+<footer th:replace="common :: footer"></footer>
+<th:block th:replace="common :: script"></th:block>
+<script>
+    $(".menu.toggle").click(function (){
+        $(".m-item").toggleClass("m-mobile-hide");
+    });
+    $('.github').popup({
+        popup: $('.github-qr'),
+        on : 'click',
+        position:'bottom center'
+    });
+    $('.qq').popup({
+        popup: $('.qq-qr'),
+        position:'bottom center'
+    });
+    $('.wechat').popup({
+        popup: $('.wechat-qr'),
+        on: 'click',
+        position:'bottom center'
+    });
+
+</script>
+</body>
+</html>
